@@ -1,0 +1,61 @@
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+.card-title {
+    margin-bottom: 0px;
+}
+
+.h-15 {
+    height: 15px;
+}
+.b-font {
+    background-color: #f7f7f7 ;
+}
+ .mwh-300 {
+     max-width: 200px;
+     max-height: 200px;
+     margin-top: 25px;
+     margin-right: 15px;
+ }
+ .pt-50 {
+     padding-top: 150px;
+     padding-bottom: 150px;
+ }
+ body{
+  font-family: 'Playfair Display', serif;
+ }
+
+ 
+
+ .mx-3 { 
+   margin-left: 0 !important;
+ } 
+ .gutter-0 {
+  --mdb-gutter-x: 0;
+ }
